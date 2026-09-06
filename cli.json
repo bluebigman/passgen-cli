@@ -1,0 +1,28 @@
+{
+ "runtime": {
+  "type": "node",
+  "version": "18"
+ },
+ "init": {
+  "darwin": "npm install -g git+https://github.com/bluebigman/passgen-cli.git",
+  "linux": "npm install -g git+https://github.com/bluebigman/passgen-cli.git",
+  "win32": "npm install -g git+https://github.com/bluebigman/passgen-cli.git"
+ },
+ "auth": {
+  "darwin": "passgen auth",
+  "linux": "passgen auth",
+  "win32": "passgen.cmd auth"
+ },
+ "unAuth": {
+  "darwin": "passgen unAuth",
+  "linux": "passgen unAuth",
+  "win32": "passgen.cmd unAuth"
+ },
+ "status": {
+  "darwin": "passgen status",
+  "linux": "passgen status",
+  "win32": "passgen.cmd status"
+ },
+ "statusMatch": "ok",
+ "authStrategy": "none"
+}

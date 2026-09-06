@@ -1,0 +1,13 @@
+{
+ "name": "passgen-cli",
+ "version": "0.1.0",
+ "description": "本地生成强密码/中文口令短语/密码强度检查。纯本地生成，不上传不存储。",
+ "main": "index.js",
+ "bin": {
+  "passgen": "./index.js"
+ },
+ "engines": {
+  "node": ">=18"
+ },
+ "license": "MIT"
+}

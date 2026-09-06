@@ -1,0 +1,18 @@
+{
+ "name": "passgen-cli",
+ "type": "cli",
+ "version": "0.1.0",
+ "displayName": "强密码生成器",
+ "description": "本地生成强密码/中文口令短语/密码强度检查。纯本地生成，不上传不存储。",
+ "icon": "icon.svg",
+ "skills": [
+  "skills/SKILL.md"
+ ],
+ "minWorkbuddyVersion": "4.22.15",
+ "examples_zh": [
+  "生成一个 20 位的强密码",
+  "生成一个 4 词中文口令",
+  "检查我的密码强度"
+ ],
+ "examples_en": []
+}
